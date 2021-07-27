@@ -17,9 +17,7 @@ function fromRomanToArabic(romanNumbers) {
     if(next > it) {
       total += next - it;
       i++;
-    }else {
-      total += it;
-    };
+    }else total += it;
   }
   return total;
 };
